@@ -49,5 +49,5 @@ borrar.addEventListener("click", () => {
     input.value = input.value.substr(0, input.value.length - 1);
 });
 
-//se inicia la variable en 0 que indica que el boton = no a sido presionado
+//se inicia la variable en 0 que indica que el boton = no ha sido presionado
 let igual_presionado = 0;
