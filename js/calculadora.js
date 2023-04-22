@@ -37,7 +37,7 @@ igual.addEventListener("click", () => {
         }
     } catch (err) {
         //Si el usuario ha ingresado una entrada inválida
-        Swal.fire('Entrada Invalida');
+        Swal.fire('Entrada Inválida');
     }
 });
 //Borra todos los datos ingresados
