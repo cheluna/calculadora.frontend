@@ -60,3 +60,38 @@ input[type="button"]#igual {
 input[type="button"][value="0"] {
   grid-column: span 2;
 }
+
+h1 {
+  display: grid;
+  place-content: center;
+  color: white;
+  padding: 20px;
+}
+
+h4, p {
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+/* Estilos para moviles */
+
+@media (max-width:768px) {
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width:768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Estilos para Computadoras y Notebooks */
+@media (min-width:1200px) {
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
